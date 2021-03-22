@@ -1,0 +1,2 @@
+SELECT *
+FROM dbo.players;

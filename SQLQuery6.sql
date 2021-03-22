@@ -1,0 +1,3 @@
+
+SELECT DATETIMES
+FROM DateTimeTest
