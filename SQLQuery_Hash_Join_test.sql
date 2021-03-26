@@ -23,6 +23,8 @@ FROM TestOrders AS o
 	OPTION (FORCE ORDER, MERGE JOIN);
 
 -- 실행 결과 : Hash Join
+-- 데이터가 적은 쪽을 Hash table을 만드는 것이 좋음.
+-- Hash table 만드는 것에서 오버헤드
 SELECT *
 FROM TestOrders AS o
 	INNER JOIN TestCustomers AS c
